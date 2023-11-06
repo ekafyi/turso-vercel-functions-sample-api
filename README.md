@@ -6,9 +6,12 @@ See details in [original code](https://github.com/turso-extended/api-mug-store-a
 
 ## Deploy to Vercel
 
-1. Make sure you have a Vercel account
-2. Install [Vercel CLI](https://vercel.com/docs/cli)
-3. Run `vercel`	in the project directory; follow the instructions to create a new Vercel project
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fekafyi%2turso-vercel-functions-sample-api)
+
+Use the one-click deploy above OR setup locally from CLI:
+
+1. Install [Vercel CLI](https://vercel.com/docs/cli)
+2. Run `vercel`	in the project directory; follow the instructions to create a new Vercel project
 
 Docs: https://vercel.com/docs/deployments/overview
 
