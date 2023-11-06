@@ -1,0 +1,38 @@
+{
+  "name": "api-turso-vercel-functions",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Eka <me@eka.fyi>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod",
+    "format": "prettier --write .",
+    "generate": "npx drizzle-kit generate:sqlite --out ./drizzle/migrations --breakpoints --schema=./drizzle/schema.ts",
+    "migrate": "tsx drizzle/migrate",
+    "seed": "tsx drizzle/seed"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.3.6",
+    "drizzle-orm": "^0.28.6",
+    "drizzle-zod": "^0.5.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@vercel/node": "^3.0.7",
+    "dotenv": "^16.3.1",
+    "drizzle-kit": "^0.19.13",
+    "eslint": "^8.53.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "knex": "^2.4.2",
+    "lorem-ipsum": "^2.0.8",
+    "prettier": "^3.0.3",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
