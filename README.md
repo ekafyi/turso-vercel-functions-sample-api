@@ -13,6 +13,8 @@ Use the one-click deploy above OR setup locally from CLI:
 1. Install [Vercel CLI](https://vercel.com/docs/cli)
 2. Run `vercel`	in the project directory; follow the instructions to create a new Vercel project
 
+Add your Turso credentials to [Vercel project env variables](https://vercel.com/docs/projects/environment-variables)
+
 Docs: https://vercel.com/docs/deployments/overview
 
 ## Example
